@@ -142,7 +142,7 @@ console.log(ht_chaining.get("Spain")); // undefined
 ht_chaining.set("Spain", 110);
 ht_chaining.set("ǻ", 192);
 
-console.log(ht_chaining.get("Spain")); // [ 'ǻ', 192 ]
+console.log(ht_chaining.get("Spain")); // [ 'Spain', 110 ]
 console.log(ht_chaining.get("ǻ")); // [ 'ǻ', 192 ]
 
 ht_chaining.display();
